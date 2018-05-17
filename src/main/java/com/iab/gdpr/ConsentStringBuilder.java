@@ -5,8 +5,7 @@ import java.util.*;
 
 /**
  * This class implements a builder of IAB consent string as specified in
- * @see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/
- * Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#vendor-consent-string-format">Vendor Consent String Format</a>
+ * @see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#vendor-consent-string-format">Vendor Consent String Format</a>
  */
 public class ConsentStringBuilder implements ConsentStringConstants {
     private static final int CHAR_SIZE = 6;
