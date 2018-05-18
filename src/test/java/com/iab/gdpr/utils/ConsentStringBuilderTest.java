@@ -1,5 +1,7 @@
-package com.iab.gdpr;
+package com.iab.gdpr.utils;
 
+import com.iab.gdpr.ConsentStringParser;
+import com.iab.gdpr.utils.ConsentStringBuilder;
 import org.junit.Test;
 
 import java.text.ParseException;

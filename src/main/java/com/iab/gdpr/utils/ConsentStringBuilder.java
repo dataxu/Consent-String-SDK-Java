@@ -1,4 +1,6 @@
-package com.iab.gdpr;
+package com.iab.gdpr.utils;
+
+import com.iab.gdpr.ConsentStringConstants;
 
 import java.time.Instant;
 import java.util.*;
