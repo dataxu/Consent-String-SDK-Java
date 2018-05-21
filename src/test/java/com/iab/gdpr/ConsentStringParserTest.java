@@ -30,6 +30,11 @@ public class ConsentStringParserTest {
 		assertTrue(consent.isVendorAllowed(9));
 		assertFalse(consent.isVendorAllowed(0));
 		assertFalse(consent.isVendorAllowed(10));
+
+		// Out of range
+		assertFalse(consent.isVendorAllowed(-1));
+		assertFalse(consent.isVendorAllowed(11));
+
 		assertEquals(consentString, consent.getConsentString());
 	}
 

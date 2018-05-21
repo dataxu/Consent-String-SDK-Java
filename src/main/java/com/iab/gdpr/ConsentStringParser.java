@@ -218,6 +218,10 @@ public class ConsentStringParser implements ConsentStringConstants {
 	 *         by a given vendor.
 	 */
 	public boolean isVendorAllowed(int vendorId) {
+		if (vendorId < 1 || vendorId > maxVendorSize) {
+			return false;
+		}
+
 		if (vendorEncodingType == VENDOR_ENCODING_RANGE) {
 			boolean present = findVendorIdInRange(vendorId);
 			return present != defaultConsent;
